@@ -1,0 +1,15 @@
+name: RMarkdown online
+output_dir: docs
+navbar:
+  title: Home
+  left:
+  - text: Untitled
+    href: Untitled.html
+output:
+  html_document:
+    theme: paper
+    code_folding: hide
+    df_print: tibble
+    code_download: yes
+    highlight: zenburn
+self_contained: no
